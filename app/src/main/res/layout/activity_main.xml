@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="com.example.lfc.testxbanner.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--  这个色值 很不错           app:pointsContainerBackground="#11666666"
+-->
+        <com.stx.xhb.mylibrary.XBanner
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/xbanner"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:AutoPlayTime="2000"
+
+            app:pointNormal="@drawable/shape_noraml"
+            app:pointSelect="@drawable/shape_selected"
+            app:pointsContainerBackground="#11666666"
+            app:pointsPosition="CENTER"
+            app:tipTextColor="@color/colorAccent"
+            app:tipTextSize="15sp"/>
+        <!--<com.stx.xhb.mylibrary.XBanner-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/xbanner"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--app:AutoPlayTime="2000"-->
+        <!--&gt;-->
+
+        <!--</com.stx.xhb.mylibrary.XBanner>-->
+
+
+        <Button
+            android:id="@+id/btn_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="默认"/>
+
+        <Button
+            android:id="@+id/btn_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="逐渐隐藏"/>
+
+        <Button
+            android:id="@+id/btn_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="旋转"/>
+
+        <Button
+            android:id="@+id/btn_04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="立方体盒子"/>
+
+        <Button
+            android:id="@+id/btn_05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="翻转"/>
+
+        <Button
+            android:id="@+id/btn_06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="折叠"/>
+
+        <Button
+            android:id="@+id/btn_07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="变焦是什么鬼"/>
+
+        <Button
+            android:id="@+id/btn_08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="ZoomCenter"/>
+
+        <Button
+            android:id="@+id/btn_09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="逐渐消失"/>
+
+        <Button
+            android:id="@+id/btn_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text=" 堆叠"/>
+
+        <Button
+            android:id="@+id/btn_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="深度什么鬼"/>
+
+        <Button
+            android:id="@+id/btn_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="设置是否让用户滑动"/>
+    </LinearLayout>
+</ScrollView>
